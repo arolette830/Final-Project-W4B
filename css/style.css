@@ -71,10 +71,44 @@ text-align: center;
   }
   
   /* Clear floats after the columns */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p { 
+    font-family: 'Hind Guntur', sans-serif;
+    padding-top: 100px;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa-linkedin {
+    float: right;
+    color: #0072b1;
+}
+
+.fa-twitter-square {
+    float: right;
+    color: #1DA1F2;
+}
+
+.twitterfeed {
+    float: left;
+}
+
 .row::after {
     content: "© Alexander Rolette 2022";
-    float: right;
+    padding-top: 500px;
     padding-right: 20px;
+    float: right;
     display: table;
     clear: both;
+    
   }
+
+.footer {
+    float: both;
+}
