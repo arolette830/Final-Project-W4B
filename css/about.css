@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* This is the start of my navigation */
 nav{
     width: 100%;
     height: 50px;
-    background-color: #FFCB03;
+    background-color: #ffffff;
 }
 nav ul{
     list-style-type: none;
@@ -33,6 +34,29 @@ color: #000000;
 text-transform: uppercase;
 font-size: 20px;
 margin: 20px 20px;
+}
+
+/* This is the end of my navigation */
+/* This is the start of my hero section*/
+
+main{ 
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Canva-Black-Tablet-Computer-Beside-Teal-Notebook.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-text {
+color: rgb(255, 255, 255);
+top: 25%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+text-align: center;
 }
 
 /* This is the start of my hero section*/
@@ -81,3 +105,17 @@ text-align: center;
     display: table;
     clear: both;
   }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p { 
+    font-family: 'Hind Guntur', sans-serif;
+    padding-top: 100px;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}

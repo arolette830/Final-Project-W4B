@@ -7,7 +7,7 @@
 nav{
     width: 100%;
     height: 50px;
-    background-color: #FFCB03;
+    background-color: #ffffff;
 }
 nav ul{
     list-style-type: none;
@@ -43,7 +43,7 @@ main{
     width: 100%;
     height: 500px;
     background-color: bisque;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/2021-01-23\ 17.11.45.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Canva-Black-Tablet-Computer-Beside-Teal-Notebook.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@ text-align: center;
     width: 33.33%;
     height: 400px;
     padding: 10px;
-    background-color: green;
+    background-color: rgb(134, 134, 134);
     border: 1px solid black;
   }
   
@@ -101,7 +101,6 @@ nav {
 
 .row::after {
     content: "© Alexander Rolette 2022";
-    padding-top: 500px;
     padding-right: 20px;
     float: right;
     display: table;
