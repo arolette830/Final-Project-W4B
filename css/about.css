@@ -117,15 +117,20 @@ text-align: center;
 
 .column1 {
     float: left;
-    width: 33.33%;
+    width: 40%;
+    height: 60%;
     padding: 10px;
     color: #000000;
     background-color: #868686;
   }
 
 .column2 {
-      float: right;
-  }
+    float: right;
+    width: 60%;
+    height: 60%;
+    background-image: url('/img/Zo-4.jpeg');
+    background-attachment: fixed;
+}
   
   /* Clear floats after the columns */
 
