@@ -3,6 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p { 
+    font-family: 'Hind Guntur', sans-serif;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    float: left;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* This is the start of my navigation */
 nav{
     width: 100%;
@@ -39,7 +57,7 @@ margin: 20px 20px;
 /* This is the end of my navigation */
 /* This is the start of my hero section*/
 
-main{ 
+/* main{ 
     width: 100%;
     height: 500px;
     background-color: bisque;
@@ -48,20 +66,20 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
 
-.hero-text {
+/* .hero-text {
 color: rgb(255, 255, 255);
 top: 25%;
 left: 50%;
 position: absolute;
 transform: translate(-50%, -50%);
 text-align: center;
-}
+} */
 
 /* This is the start of my hero section*/
 
-main{ 
+/* main{ 
     width: 100%;
     height: 500px;
     background-color: bisque;
@@ -70,54 +88,49 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
 
-.hero-text {
+/* .hero-text {
 color: rgb(255, 255, 255);
 top: 25%;
 left: 50%;
 position: absolute;
 transform: translate(-50%, -50%);
 text-align: center;
-}
+} */
 
 /* This is the end of my hero section*/
 
 
-.hero-text {
-color: rgb(15,10,2);
+/* .hero-text {
+color: rgb(255, 255, 255);
 top: 25%;
 left: 50%;
 position: absolute;
 transform: translate(-50%, -50%);
 text-align: center;
+} */
+
+.row {
+    background-color: #000000;
 }
 
-.column {
+.column1 {
     float: left;
     width: 33.33%;
     padding: 10px;
+    color: #000000;
+    background-color: #868686;
+  }
+
+.column2 {
+      float: right;
   }
   
   /* Clear floats after the columns */
-.row:after {
-    content: "Hello World";
-    display: table;
-    clear: both;
-  }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-}
-
-p { 
-    font-family: 'Hind Guntur', sans-serif;
-    padding-top: 100px;
-}
-
-nav {
-    font-family: 'Montserrat', sans-serif;
+.footer {
+    float: both;
 }
 
 .fa-linkedin {
@@ -128,4 +141,10 @@ nav {
 .fa-twitter-square {
     float: left;
     color: #1DA1F2;
+}
+
+.credits {
+    float: right;
+    padding-right: 7px;
+    margin-top: 7px;
 }
