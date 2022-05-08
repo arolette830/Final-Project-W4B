@@ -119,3 +119,13 @@ p {
 nav {
     font-family: 'Montserrat', sans-serif;
 }
+
+.fa-linkedin {
+    float: left;
+    color: #0072b1;
+}
+
+.fa-twitter-square {
+    float: left;
+    color: #1DA1F2;
+}
