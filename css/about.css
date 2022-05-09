@@ -55,68 +55,31 @@ margin: 20px 20px;
 }
 
 /* This is the end of my navigation */
-/* This is the start of my hero section*/
 
-/* main{ 
-    width: 100%;
-    height: 500px;
-    background-color: bisque;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Canva-Black-Tablet-Computer-Beside-Teal-Notebook.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
-
-/* .hero-text {
-color: rgb(255, 255, 255);
-top: 25%;
-left: 50%;
-position: absolute;
-transform: translate(-50%, -50%);
-text-align: center;
-} */
-
-/* This is the start of my hero section*/
-
-/* main{ 
-    width: 100%;
-    height: 500px;
-    background-color: bisque;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/2021-01-23\ 17.11.45.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
-
-/* .hero-text {
-color: rgb(255, 255, 255);
-top: 25%;
-left: 50%;
-position: absolute;
-transform: translate(-50%, -50%);
-text-align: center;
-} */
-
-/* This is the end of my hero section*/
-
-
-/* .hero-text {
-color: rgb(255, 255, 255);
-top: 25%;
-left: 50%;
-position: absolute;
-transform: translate(-50%, -50%);
-text-align: center;
-} */
+.box {
+    background-color: #000000;
+}
 
 .row {
-    background-color: #000000;
+    left: 22px;
+    background-size: 50% auto;
+    /* background-color: #000000; */
+    background-image: url('/img/Zo-4.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    z-index: 1;
 }
 
 .column1 {
     float: left;
+    position: relative;
+    left: 806px;
     width: 40%;
     height: 60%;
     padding: 10px;
@@ -126,26 +89,35 @@ text-align: center;
 
 .column2 {
     float: right;
+    position: relative;
+    right: 807px;
     width: 60%;
     height: 60%;
+    /* background-color: #000000; */
     background-image: url('/img/Zo-4.jpeg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
   
-  /* Clear floats after the columns */
+/* This is the end of my about section */
+
+/* This is the start of my footer */
 
 .footer {
     float: both;
 }
 
-.fa-linkedin {
+.fa-linkedin-in {
     float: left;
-    color: #0072b1;
+    color: #707070;
+    margin-top: 2px;
+    margin-left: 5px;
 }
 
-.fa-twitter-square {
+.fa-twitter {
     float: left;
-    color: #1DA1F2;
+    color: #707070;
+    margin-top: 2px;
+    margin-left: 5px;
 }
 
 .credits {

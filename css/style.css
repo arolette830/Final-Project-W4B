@@ -79,14 +79,28 @@ font-weight: bolder;
 font-size: 40pt;
 }
 
+.infobox {
+    background-color: #868686;
+    padding-top: -20px;
+    padding-bottom: 1px;
+}
+
 .hero-paragraph {
     color: #000000;
+    /* background-color: #868686; */
+    position: relative;
     text-align: center;
+    margin-top: -50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
     left: 2px;
-    bottom: 50px;
+    /* top: -1000px; */
 }
 
 /* This is the end of my hero section*/
+
+/* This is the start of my info box section */
 
 .infobox {
     text-align: center;
@@ -136,18 +150,26 @@ font-size: 40pt;
     
   } */
 
+/* This is the end of my info box section */
+
+/* This is the start of my footer */
+
 .footer {
     float: both;
 }
 
-.fa-linkedin {
+.fa-linkedin-in {
     float: left;
-    color: #0072b1;
+    color: #707070;
+    margin-top: 2px;
+    margin-left: 5px;
 }
 
-.fa-twitter-square {
+.fa-twitter {
     float: left;
-    color: #1DA1F2;
+    color: #707070;
+    margin-top: 2px;
+    margin-left: 5px;
 }
 
 .credits {

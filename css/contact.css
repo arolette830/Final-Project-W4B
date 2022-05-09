@@ -86,18 +86,29 @@ input[type=text], select, textarea {
   }
 
   /* This is the end of my contact form */
-.row:after {
-    content: "Hello World";
-    display: table;
-    clear: both;
-  }
 
-.fa-linkedin {
-    float: left;
-    color: #0072b1;
+  /* This is the start of my footer */
+
+  .footer {
+    float: both;
 }
 
-.fa-twitter-square {
+.fa-linkedin-in {
     float: left;
-    color: #1DA1F2;
+    color: #707070;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.fa-twitter {
+    float: left;
+    color: #707070;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.credits {
+    float: right;
+    padding-right: 7px;
+    margin-top: 7px;
 }
