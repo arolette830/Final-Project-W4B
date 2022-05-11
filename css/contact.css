@@ -30,11 +30,11 @@ nav ul{
 }
 
 nav ul li:hover {
-    color: darkmagenta;
+    color: #888888;
 }
 
 nav ul li:active {
-    color: red;
+    color: #000000;
 }
 
 .logo {
@@ -67,7 +67,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #b4b4b4;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -76,7 +76,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #888888;
   }
   
   .container {
@@ -95,14 +95,14 @@ input[type=text], select, textarea {
 
 .fa-linkedin-in {
     float: left;
-    color: #707070;
+    color: #b4b4b4;
     margin-top: 2px;
     margin-left: 5px;
 }
 
 .fa-twitter {
     float: left;
-    color: #707070;
+    color: #b4b4b4;
     margin-top: 2px;
     margin-left: 5px;
 }

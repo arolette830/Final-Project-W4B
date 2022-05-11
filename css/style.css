@@ -30,11 +30,11 @@ nav ul{
 }
 
 nav ul li:hover {
-    color: darkmagenta;
+    color: #888888;
 }
 
 nav ul li:active {
-    color: red;
+    color: #000000;
 }
 
 .logo {
@@ -57,7 +57,7 @@ margin: 20px 20px;
 main{ 
     width: 100%;
     height: 500px;
-    background-color: bisque;
+    background-color: #ffe4c4;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Canva-Black-Tablet-Computer-Beside-Teal-Notebook.jpeg');
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ font-size: 40pt;
 }
 
 .infobox {
-    background-color: #868686;
+    background-color: #b4b4b4;
     padding-top: -20px;
     padding-bottom: 1px;
 }
@@ -112,8 +112,8 @@ font-size: 40pt;
     width: 33.33%;
     height: 400px;
     padding: 10px;
-    background-color: #868686;
-    border: 0.01px solid black;
+    background-color: #b4b4b4;
+    border: 0.01px solid #000000;
   }
 
   .columntext1 {
@@ -127,7 +127,10 @@ font-size: 40pt;
   .columntext3 {
     margin-bottom: 40px; 
   }
-  
+
+  .weblink {
+    color: #000000;
+  }
   
   /* .columntext {
     margin-bottom: 70px;
@@ -160,14 +163,14 @@ font-size: 40pt;
 
 .fa-linkedin-in {
     float: left;
-    color: #707070;
+    color: #b4b4b4;
     margin-top: 2px;
     margin-left: 5px;
 }
 
 .fa-twitter {
     float: left;
-    color: #707070;
+    color: #b4b4b4;
     margin-top: 2px;
     margin-left: 5px;
 }
