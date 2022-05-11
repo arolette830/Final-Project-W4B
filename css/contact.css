@@ -89,7 +89,7 @@ input[type=text], select, textarea {
 
   /* This is the start of my footer */
 
-  .footer {
+.footer {
     float: both;
 }
 
