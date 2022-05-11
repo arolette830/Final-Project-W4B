@@ -58,7 +58,7 @@ main{
     width: 100%;
     height: 500px;
     background-color: #ffe4c4;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Canva-Black-Tablet-Computer-Beside-Teal-Notebook.jpeg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/Canva-Black-Tablet-Computer-Beside-Teal-Notebook.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

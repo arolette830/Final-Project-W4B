@@ -64,7 +64,7 @@ margin: 20px 20px;
     left: 22px;
     background-size: 50% auto;
     /* background-color: #000000; */
-    background-image: url('/img/Zo-4.jpeg');
+    background-image: url('../img/Zo-4.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -94,7 +94,7 @@ margin: 20px 20px;
     width: 60%;
     height: 60%;
     /* background-color: #000000; */
-    background-image: url('/img/Zo-4.jpeg');
+    background-image: url('../img/Zo-4.jpeg');
     /* background-attachment: fixed; */
 }
 
