@@ -85,14 +85,17 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+  .abovefooter {
+      position: absolute;
+  }
+
   .map {
-      float: left;
+      clear: both;
   }
 
   .video {
-      float: right;
-      padding-right: 20px;
-      padding-top: -1200px;
+      clear: both;
+      padding-left: 600px;
   }
 
   /* This is the end of my contact form */
@@ -100,7 +103,15 @@ input[type=text], select, textarea {
   /* This is the start of my footer */
 
 .footer {
-    float: both;
+    clear: both;
+    position: absolute;
+}
+
+.foot {
+    /* margin-bottom: 10%; */
+    /* height: 10px;
+    width: 10px; */
+    padding-top: 150px;
 }
 
 .fa-linkedin-in {
