@@ -85,6 +85,16 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+  .map {
+      float: left;
+  }
+
+  .video {
+      float: right;
+      padding-right: 20px;
+      padding-top: -1200px;
+  }
+
   /* This is the end of my contact form */
 
   /* This is the start of my footer */
